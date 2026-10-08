@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ONG Esperança: projetos sociais, voluntariado e apoio comunitário.">
+    <title>ONG Esperança</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a class="brand" href="./index.html" aria-label="Página inicial da ONG Esperança">
+          <img src="./assets/icons/logo.svg" alt="ONG Esperança" width="160" height="44">
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="nav-toggle">
+        <label for="menu-toggle" class="nav-button" aria-label="Abrir ou fechar o menu">
+          <span class="nav-button__bar"></span>
+          <span class="nav-button__bar"></span>
+          <span class="nav-button__bar"></span>
+        </label>
+
+        <nav class="main-nav" aria-label="Principal">
+          <ul class="main-nav__list">
+            <li><a href="./index.html">Início</a></li>
+            <li class="has-submenu">
+              <a href="./projetos.html">Projetos</a>
+              <ul class="submenu" aria-label="Projetos">
+                <li><a href="./projetos.html#educacao">Educação</a></li>
+                <li><a href="./projetos.html#saude">Saúde</a></li>
+                <li><a href="./projetos.html#meio-ambiente">Meio Ambiente</a></li>
+              </ul>
+            </li>
+            <li><a href="./cadastro.html">Cadastro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo-principal">
+      <section class="section projects-intro">
+        <div class="container">
+          <div class="page-header">
+            <h1>Projetos que transformam comunidades</h1>
+            <p>Atuamos em educação, saúde, cultura, meio ambiente e apoio social com ação direta nas comunidades locais.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--compact">
+        <div class="container content-layout">
+          <div>
+            <div class="project-showcase" id="educacao">
+              <article class="card">
+                <img class="card__image" src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80" alt="Projeto de educação comunitária" width="600" height="400" loading="lazy">
+                <div class="card__body">
+                  <div class="card__meta">
+                    <span class="badge badge--education">Educação</span>
+                    <small>65%</small>
+                  </div>
+                  <h2>Escolas do Futuro</h2>
+                  <p>Circulação de materiais didáticos, reforço escolar e acompanhamento de aulas para crianças e jovens.</p>
+                  <progress class="progress" value="65" max="100">65%</progress>
+                  <div class="card__footer">
+                    <a href="./cadastro.html" class="btn btn--outline">Quero ajudar</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card" id="saude">
+                <img class="card__image" src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Projeto de atenção em saúde comunitária" width="600" height="400" loading="lazy">
+                <div class="card__body">
+                  <div class="card__meta">
+                    <span class="badge badge--health">Saúde</span>
+                    <small>82%</small>
+                  </div>
+                  <h2>Clínica Móvel</h2>
+                  <p>Consultas, ações preventivas e orientação sobre saúde física, mental e bem-estar comunitário.</p>
+                  <progress class="progress" value="82" max="100">82%</progress>
+                  <div class="card__footer">
+                    <a href="./cadastro.html" class="btn btn--outline">Quero ajudar</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card" id="meio-ambiente">
+                <img class="card__image" src="./assets/images/project-environment.svg" alt="Projeto de educação ambiental" width="600" height="400" loading="lazy">
+                <div class="card__body">
+                  <div class="card__meta">
+                    <span class="badge badge--environment">Meio Ambiente</span>
+                    <small>48%</small>
+                  </div>
+                  <h2>Semeando Vida</h2>
+                  <p>Hortas comunitárias, ações de coleta seletiva e sensibilização ambiental para bairros da periferia.</p>
+                  <progress class="progress" value="48" max="100">48%</progress>
+                  <div class="card__footer">
+                    <a href="./cadastro.html" class="btn btn--outline">Quero ajudar</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <img class="card__image" src="./assets/images/project-culture.svg" alt="Projeto cultural comunitário" width="600" height="400" loading="lazy">
+                <div class="card__body">
+                  <div class="card__meta">
+                    <span class="badge badge--culture">Cultura</span>
+                    <small>58%</small>
+                  </div>
+                  <h2>Arte na Rua</h2>
+                  <p>Oficinas de música, dança, teatro e expressão artística para fortalecer a cultura local.</p>
+                  <progress class="progress" value="58" max="100">58%</progress>
+                  <div class="card__footer">
+                    <a href="./cadastro.html" class="btn btn--outline">Quero ajudar</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <img class="card__image" src="./assets/images/project-food.svg" alt="Projeto de alimentação para famílias" width="600" height="400" loading="lazy">
+                <div class="card__body">
+                  <div class="card__meta">
+                    <span class="badge badge--education">Alimentação</span>
+                    <small>91%</small>
+                  </div>
+                  <h2>Panela Solidária</h2>
+                  <p>Entrega de refeições e cestas básicas em parceria com cozinhas comunitárias e voluntários.</p>
+                  <progress class="progress" value="91" max="100">91%</progress>
+                  <div class="card__footer">
+                    <a href="./cadastro.html" class="btn btn--outline">Quero ajudar</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                <img class="card__image" src="./assets/images/project-community.svg" alt="Projeto de mobilização comunitária" width="600" height="400" loading="lazy">
+                <div class="card__body">
+                  <div class="card__meta">
+                    <span class="badge badge--environment">Comunidade</span>
+                    <small>73%</small>
+                  </div>
+                  <h2>Vizinhos em Ação</h2>
+                  <p>Ações de apoio social, acolhimento e organização de mutirões para proteger famílias locais.</p>
+                  <progress class="progress" value="73" max="100">73%</progress>
+                  <div class="card__footer">
+                    <a href="./cadastro.html" class="btn btn--outline">Quero ajudar</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <section class="section">
+              <div class="page-header">
+                <h2>Seja voluntário</h2>
+              </div>
+              <div class="alert alert--info">
+                <strong>Atualmente:</strong> buscamos apoio em logística, atendimento e educação comunitária.
+              </div>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="./cadastro.html">Cadastrar interesse</a>
+                <a class="btn btn--secondary" href="#toast-voluntario">Receber novidades</a>
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="page-header">
+                <h2>Como doar</h2>
+              </div>
+              <p>Você pode contribuir com valores mensais, materiais escolares, alimentos, itens de higiene ou recursos para nossa logística.</p>
+              <a class="btn btn--primary" href="#modal-doar">Quero doar</a>
+            </section>
+
+            <section class="section">
+              <div class="page-header">
+                <h2>Galeria</h2>
+              </div>
+              <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80" alt="Atividade de educação infantil em comunidade" width="600" height="420" loading="lazy">
+                <img src="./assets/images/gallery-2.svg" alt="Distribuição de alimentos para famílias" width="600" height="420" loading="lazy">
+                <img src="./assets/images/gallery-3.svg" alt="Ação de limpeza urbana e mobilização cidadã" width="600" height="420" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Atendimento comunitário de saúde" width="600" height="420" loading="lazy">
+                <img src="./assets/images/gallery-5.svg" alt="Atividade cultural e artística comunitária" width="600" height="420" loading="lazy">
+                <img src="./assets/images/gallery-6.svg" alt="Encontro de voluntários" width="600" height="420" loading="lazy">
+              </div>
+            </section>
+          </div>
+
+          <aside class="sidebar">
+            <div class="page-header">
+              <h2>Notícias e updates</h2>
+            </div>
+            <div class="sidebar-list">
+              <article class="news-card">
+                <div class="news-card__body">
+                  <span class="tag tag--active">Atualização</span>
+                  <h3>Nova turma de leitura</h3>
+                  <p>Começamos uma nova rodada de oficinas de leitura para 80 crianças da região central.</p>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-card__body">
+                  <span class="tag">Parceria</span>
+                  <h3>Consultório itinerante</h3>
+                  <p>Mais de 200 atendimentos foram realizados em parceria com profissionais locais.</p>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-card__body">
+                  <span class="tag">Saúde</span>
+                  <h3>Campanha de vacinação</h3>
+                  <p>Mais de 300 pessoas foram orientadas e encaminhadas para exames preventivos.</p>
+                </div>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast-voluntario" class="toast" role="status">
+      <p>Obrigado por acompanhar a ONG Esperança.</p>
+      <a href="#">Fechar</a>
+    </div>
+
+    <div id="modal-doar" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-doar-titulo">
+      <div class="modal__content">
+        <h2 id="modal-doar-titulo">Como doar</h2>
+        <p>Você pode fazer uma doação única, ser doador mensal ou contribuir com materiais e serviços essenciais para nossas ações.</p>
+        <ul>
+          <li>Transferência bancária: Banco Esperança, agência 123, conta 45678-9</li>
+          <li>Pix: doacoes@ongesperanca.org.br</li>
+          <li>Entrega de itens: roupas, alimentos e materiais escolares em nossa sede</li>
+        </ul>
+        <a class="btn btn--outline" href="#">Fechar</a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>ONG Esperança</h3>
+            <p>Transformamos pequenas ações em grandes impactos nas comunidades.</p>
+          </div>
+          <div class="footer-column">
+            <h4>Contato</h4>
+            <ul class="footer-list">
+              <li>(11) 3333-4444</li>
+              <li>contato@ongesperanca.org.br</li>
+              <li>Rua das Flores, 120, Centro</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Links</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html">Início</a></li>
+              <li><a href="./projetos.html" aria-current="page">Projetos</a></li>
+              <li><a href="./cadastro.html">Cadastro</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Conheça</h4>
+            <ul class="footer-list">
+              <li>Voluntariado</li>
+              <li>Doações</li>
+              <li>Parcerias</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-meta">© 2026 ONG Esperança. Cuidando de pessoas e comunidades.</div>
+      </div>
+    </footer>
+  </body>
+</html>

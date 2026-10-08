@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ONG Esperança: projetos sociais, voluntariado e apoio comunitário.">
+    <title>ONG Esperança</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a class="brand" href="./index.html" aria-label="Página inicial da ONG Esperança">
+          <img src="./assets/icons/logo.svg" alt="ONG Esperança" width="160" height="44">
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="nav-toggle">
+        <label for="menu-toggle" class="nav-button" aria-label="Abrir ou fechar o menu">
+          <span class="nav-button__bar"></span>
+          <span class="nav-button__bar"></span>
+          <span class="nav-button__bar"></span>
+        </label>
+
+        <nav class="main-nav" aria-label="Principal">
+          <ul class="main-nav__list">
+            <li><a href="./index.html" aria-current="page">Início</a></li>
+            <li class="has-submenu">
+              <a href="./projetos.html">Projetos</a>
+              <ul class="submenu" aria-label="Projetos">
+                <li><a href="./projetos.html#educacao">Educação</a></li>
+                <li><a href="./projetos.html#saude">Saúde</a></li>
+                <li><a href="./projetos.html#meio-ambiente">Meio Ambiente</a></li>
+              </ul>
+            </li>
+            <li><a href="./cadastro.html">Cadastro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo-principal">
+      <section class="hero section">
+        <div class="container grid-12">
+          <div class="col-lg-7 hero__content">
+            <p class="badge badge--education">Cuidando da comunidade</p>
+            <h1>Juntos, transformamos oportunidades em futuro.</h1>
+            <p>Somos uma ONG que conecta pessoas, recursos e ideias para fortalecer comunidades em situação de vulnerabilidade e criar caminhos mais seguros, dignos e acolhedores.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="./cadastro.html">Quero ajudar</a>
+              <a class="btn btn--outline" href="./projetos.html">Ver projetos</a>
+            </div>
+          </div>
+          <div class="col-lg-5 hero__media">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80" alt="Voluntários reunidos observando o horizonte" width="800" height="600" loading="eager">
+          </div>
+        </div>
+      </section>
+
+      <section class="section--compact">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat">
+              <strong>12k</strong>
+              <span>pessoas atendidas</span>
+            </div>
+            <div class="stat">
+              <strong>280</strong>
+              <span>voluntários ativos</span>
+            </div>
+            <div class="stat">
+              <strong>64</strong>
+              <span>parcerias locais</span>
+            </div>
+            <div class="stat">
+              <strong>18</strong>
+              <span>projetos em andamento</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="page-header">
+            <h2>Missão, visão e valores</h2>
+          </div>
+          <div class="value-list">
+            <article class="value-card">
+              <h3>Missão</h3>
+              <p>Promover justiça social e dignidade por meio de ações concretas de acolhimento, educação, saúde e mobilização comunitária.</p>
+            </article>
+            <article class="value-card">
+              <h3>Visão</h3>
+              <p>Ser referência em transformação comunitária, fortalecendo vínculos e ampliando oportunidades para famílias e grupos vulneráveis.</p>
+            </article>
+            <article class="value-card">
+              <h3>Valores</h3>
+              <p>Respeito, empatia, participação, transparência e responsabilidade com as pessoas que atendemos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="page-header">
+            <h2>Projetos em destaque</h2>
+          </div>
+          <div class="cards-grid">
+            <article class="card">
+              <img class="card__image" src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80" alt="Projeto de educação comunitária" width="600" height="400" loading="lazy">
+              <div class="card__body">
+                <div class="card__meta">
+                  <span class="badge badge--education">Educação</span>
+                  <small>65% da meta</small>
+                </div>
+                <h3 class="card__title">Escolas do Futuro</h3>
+                <p>Reforço escolar, apoio pedagógico e materiais para crianças e jovens em risco de evasão.</p>
+                <progress class="progress" value="65" max="100">65%</progress>
+                <div class="card__footer">
+                  <a class="btn btn--outline" href="./projetos.html#educacao">Saiba mais</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img class="card__image" src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Projeto de saúde da comunidade" width="600" height="400" loading="lazy">
+              <div class="card__body">
+                <div class="card__meta">
+                  <span class="badge badge--health">Saúde</span>
+                  <small>82% da meta</small>
+                </div>
+                <h3 class="card__title">Clínica Móvel</h3>
+                <p>Atendimento básico, prevenção e orientação para famílias que têm dificuldade de acesso à saúde.</p>
+                <progress class="progress" value="82" max="100">82%</progress>
+                <div class="card__footer">
+                  <a class="btn btn--outline" href="./projetos.html#saude">Saiba mais</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img class="card__image" src="./assets/images/project-environment.svg" alt="Projeto de educação ambiental" width="600" height="400" loading="lazy">
+              <div class="card__body">
+                <div class="card__meta">
+                  <span class="badge badge--environment">Meio Ambiente</span>
+                  <small>48% da meta</small>
+                </div>
+                <h3 class="card__title">Semeando Vida</h3>
+                <p>Horta comunitária, coleta seletiva e sensibilização para a preservação do entorno urbano.</p>
+                <progress class="progress" value="48" max="100">48%</progress>
+                <div class="card__footer">
+                  <a class="btn btn--outline" href="./projetos.html#meio-ambiente">Saiba mais</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="page-header">
+            <h2>Entre em contato</h2>
+          </div>
+          <div class="grid-12">
+            <div class="col-lg-6">
+              <div class="contact-card">
+                <p><strong>Endereço:</strong><br>Rua das Flores, 120, Centro<br>São Paulo - SP</p>
+                <p><strong>Telefone:</strong> (11) 3333-4444</p>
+                <p><strong>E-mail:</strong> contato@ongesperanca.org.br</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-card">
+                <h3>Faça parte</h3>
+                <p>Se você quer doar tempo, materiais ou recursos, estamos abertos para receber sua ajuda e fortalecer a comunidade da região.</p>
+                <div class="hero__actions">
+                  <a class="btn btn--primary" href="./cadastro.html">Ser voluntário</a>
+                  <a class="btn btn--secondary" href="./index.html#toast-voluntario">Quero apoiar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="toast-voluntario" class="toast" role="status">
+      <p>Obrigado pelo seu interesse em apoiar a ONG Esperança.</p>
+      <a href="./index.html#toast-voluntario">Fechar</a>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>ONG Esperança</h3>
+            <p>Transformamos pequenas ações em grandes impactos nas comunidades.</p>
+          </div>
+          <div class="footer-column">
+            <h4>Contato</h4>
+            <ul class="footer-list">
+              <li>(11) 3333-4444</li>
+              <li>contato@ongesperanca.org.br</li>
+              <li>Rua das Flores, 120, Centro</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Links</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html">Início</a></li>
+              <li><a href="./projetos.html">Projetos</a></li>
+              <li><a href="./cadastro.html">Cadastro</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Conheça</h4>
+            <ul class="footer-list">
+              <li>Voluntariado</li>
+              <li>Doações</li>
+              <li>Parcerias</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-meta">© 2026 ONG Esperança. Cuidando de pessoas e comunidades.</div>
+      </div>
+    </footer>
+  </body>
+</html>
