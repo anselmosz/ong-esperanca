@@ -1,0 +1,51 @@
+/*
+  Breakpoints do projeto: 480px (sm), 768px (md), 1024px (lg), 1280px (xl), 1536px (2xl).
+  A partir daqui, o restante do CSS usa estas variáveis para manter consistência.
+*/
+:root {
+  --color-primary-700: #0b5d4b;
+  --color-primary-600: #0e7c66;
+  --color-primary-100: #d9f2ec;
+
+  --color-secondary-700: #c2410c;
+  --color-secondary-100: #ffedd5;
+
+  --color-neutral-900: #111827;
+  --color-neutral-700: #374151;
+  --color-neutral-500: #6b7280;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-50: #f9fafb;
+  --color-white: #ffffff;
+
+  --color-success: #15803d;
+  --color-warning: #b45309;
+  --color-danger: #b91c1c;
+  --color-info: #0369a1;
+
+  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height: 1.6;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+
+  --radius: 8px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.15);
+  --transition: 0.2s ease;
+  --container-width: 1200px;
+  --focus-ring: 3px solid var(--color-secondary-700);
+}
