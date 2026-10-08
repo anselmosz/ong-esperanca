@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Galeria 5</title>
+  <desc id="desc">Ação cultural comunitária.</desc>
+  <rect width="800" height="560" fill="#f9fafb"/>
+  <rect x="80" y="100" width="640" height="360" rx="30" fill="#e5e7eb"/>
+  <circle cx="200" cy="220" r="62" fill="#0e7c66"/>
+  <circle cx="400" cy="220" r="72" fill="#ffffff"/>
+  <circle cx="600" cy="220" r="62" fill="#c2410c"/>
+  <path d="M142 370c30-50 74-80 134-80s99 30 136 80" fill="#0b5d4b" opacity="0.75"/>
+  <path d="M338 370c32-58 78-90 144-90s107 32 146 90" fill="#ffedd5" opacity="0.9"/>
+</svg>

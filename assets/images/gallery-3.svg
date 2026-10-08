@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Galeria 3</title>
+  <desc id="desc">Ação de limpeza urbana.</desc>
+  <rect width="800" height="560" fill="#f9fafb"/>
+  <rect x="70" y="100" width="660" height="360" rx="30" fill="#d9f2ec"/>
+  <circle cx="230" cy="220" r="72" fill="#ffffff"/>
+  <circle cx="520" cy="220" r="72" fill="#15803d"/>
+  <path d="M160 360c35-58 76-88 148-88s106 30 152 88" fill="#0b5d4b" opacity="0.72"/>
+  <path d="M430 360c32-58 73-88 145-88 67 0 104 18 139 88" fill="#ffffff" opacity="0.8"/>
+</svg>

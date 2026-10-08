@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Galeria 1</title>
+  <desc id="desc">Atividade de educação infantil.</desc>
+  <rect width="800" height="560" fill="#e5e7eb"/>
+  <rect x="60" y="80" width="680" height="400" rx="30" fill="#0e7c66"/>
+  <circle cx="220" cy="210" r="64" fill="#ffedd5"/>
+  <path d="M180 340c22-48 55-73 110-73 60 0 95 28 125 73" fill="#ffffff" opacity="0.9"/>
+  <rect x="390" y="180" width="200" height="160" rx="18" fill="#d9f2ec"/>
+  <path d="M430 300h120M430 250h120" stroke="#0b5d4b" stroke-width="16" stroke-linecap="round"/>
+</svg>

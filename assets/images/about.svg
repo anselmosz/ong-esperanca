@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Missão e impacto</title>
+  <desc id="desc">Ilustração de uma pessoa ajudando outra em um ambiente acolhedor.</desc>
+  <rect width="640" height="480" fill="#f9fafb"/>
+  <circle cx="500" cy="120" r="80" fill="#d9f2ec"/>
+  <rect x="80" y="140" width="180" height="220" rx="22" fill="#0b5d4b"/>
+  <rect x="300" y="110" width="180" height="250" rx="22" fill="#0e7c66"/>
+  <circle cx="175" cy="200" r="38" fill="#f0c7a3"/>
+  <circle cx="392" cy="180" r="44" fill="#f0c7a3"/>
+  <path d="M110 320c22-48 57-72 111-72s89 24 111 72" fill="#fff" opacity="0.65"/>
+  <path d="M326 330c24-52 59-88 117-88 56 0 93 30 116 88" fill="#ffedd5" opacity="0.8"/>
+  <rect x="80" y="390" width="420" height="18" rx="9" fill="#0b5d4b" opacity="0.12"/>
+</svg>

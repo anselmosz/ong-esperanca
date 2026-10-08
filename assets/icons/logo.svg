@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80" role="img" aria-labelledby="title desc">
+  <title id="title">ONG Esperança</title>
+  <desc id="desc">Logo da ONG Esperança.</desc>
+  <rect width="240" height="80" rx="18" fill="#0b5d4b"/>
+  <circle cx="38" cy="40" r="18" fill="#ffedd5"/>
+  <path d="M38 26v28M24 40h28" stroke="#0b5d4b" stroke-width="6" stroke-linecap="round"/>
+  <text x="72" y="48" fill="#ffffff" font-size="26" font-weight="700" font-family="Arial, sans-serif">Esperança</text>
+</svg>

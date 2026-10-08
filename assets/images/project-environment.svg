@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projeto meio ambiente</title>
+  <desc id="desc">Ilustração de uma ação de preservação ambiental.</desc>
+  <rect width="800" height="560" fill="#f9fafb"/>
+  <circle cx="640" cy="120" r="74" fill="#d9f2ec"/>
+  <path d="M70 380c100-100 220-140 340-140s220 40 320 140" fill="#d9f2ec"/>
+  <path d="M100 390c58-78 115-120 182-120 70 0 128 46 181 118" fill="#15803d" opacity="0.82"/>
+  <rect x="90" y="170" width="150" height="120" rx="18" fill="#0e7c66"/>
+  <circle cx="255" cy="215" r="54" fill="#ffedd5"/>
+  <circle cx="320" cy="260" r="46" fill="#0b5d4b" opacity="0.78"/>
+  <circle cx="390" cy="200" r="36" fill="#15803d"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projeto alimentação</title>
+  <desc id="desc">Ilustração de distribuição de alimentos.</desc>
+  <rect width="800" height="560" fill="#f9fafb"/>
+  <rect x="120" y="120" width="560" height="280" rx="26" fill="#d9f2ec"/>
+  <rect x="180" y="170" width="160" height="180" rx="18" fill="#ffffff"/>
+  <rect x="360" y="150" width="220" height="220" rx="18" fill="#0e7c66"/>
+  <circle cx="250" cy="210" r="40" fill="#c2410c"/>
+  <path d="M220 270c25-23 60-23 85 0" stroke="#0b5d4b" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M390 190h160M390 260h120" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+  <path d="M140 420c86-72 187-108 265-108s183 36 285 108" fill="#ffedd5"/>
+</svg>

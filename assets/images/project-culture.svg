@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projeto cultura</title>
+  <desc id="desc">Ilustração de atividades culturais comunitárias.</desc>
+  <rect width="800" height="560" fill="#f9fafb"/>
+  <rect x="90" y="120" width="620" height="300" rx="26" fill="#ffedd5"/>
+  <circle cx="200" cy="210" r="70" fill="#ffffff"/>
+  <circle cx="400" cy="210" r="78" fill="#0e7c66"/>
+  <circle cx="600" cy="210" r="70" fill="#ffffff"/>
+  <path d="M150 360c30-42 60-62 111-62s82 20 117 62" fill="#0b5d4b" opacity="0.75"/>
+  <path d="M350 360c28-42 62-62 126-62 66 0 99 18 124 62" fill="#fff" opacity="0.9"/>
+  <path d="M540 130l70 80-70 80-70-80z" fill="#c2410c" opacity="0.8"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Galeria 2</title>
+  <desc id="desc">Distribuição de alimentos.</desc>
+  <rect width="800" height="560" fill="#f9fafb"/>
+  <rect x="80" y="120" width="640" height="320" rx="28" fill="#ffedd5"/>
+  <rect x="140" y="170" width="180" height="180" rx="18" fill="#ffffff"/>
+  <circle cx="515" cy="210" r="84" fill="#0e7c66"/>
+  <path d="M475 200h80v-50h32v50h80v32h-80v80h-32v-80h-80z" fill="#ffffff"/>
+  <path d="M180 420c80-60 175-90 250-90s180 30 290 90" fill="#0b5d4b" opacity="0.12"/>
+</svg>
