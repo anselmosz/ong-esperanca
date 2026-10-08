@@ -1,0 +1,17 @@
+/* main.css: ponto de entrada da plataforma. */
+@import "base/variables.css";
+@import "base/reset.css";
+@import "base/typography.css";
+@import "layout/container.css";
+@import "layout/grid-12.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "components/navigation.css";
+@import "components/buttons.css";
+@import "components/cards.css";
+@import "components/forms.css";
+@import "components/feedback.css";
+@import "components/badges.css";
+@import "pages/home.css";
+@import "pages/projetos.css";
+@import "pages/cadastro.css";
