@@ -17,6 +17,7 @@ Basta abrir o arquivo `index.html` no navegador. Não é necessário servidor we
 ├── cadastro.html
 ├── README.md
 ├── assets/
+    ├── favicon.ico
 │   ├── icons/
 │   │   └── logo.svg
 │   └── images/
